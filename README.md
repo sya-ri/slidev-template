@@ -9,3 +9,11 @@ To start the slide show:
 Edit the [slides.md](./slides.md) to see the changes.
 
 Learn more about Slidev on [documentations](https://sli.dev/).
+
+## slidev-template
+
+### How To Change CNAME
+[build-gh-pages.yaml](.github/workflows/build-gh-pages.yaml)
+```yaml
+cname: "https://slidev-template.benishou.ga" # FixMe: Change to the your domain. 
+```
