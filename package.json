@@ -3,6 +3,7 @@
   "scripts": {
     "dev": "slidev --open",
     "build": "slidev build",
+    "build:gh-page": "slidev build --base <REPOSITORY NAME>",
     "export": "slidev export"
   },
   "dependencies": {

@@ -12,8 +12,14 @@ Learn more about Slidev on [documentations](https://sli.dev/).
 
 ## slidev-template
 
-### How To Change CNAME
-[build-gh-pages.yaml](.github/workflows/build-gh-pages.yaml)
-```yaml
-cname: "https://slidev-template.benishou.ga" # FixMe: Change to the your domain. 
+### package.json
+
+Change `REPOSITORY NAME` to your repository name.
+
+```json
+{
+  "scripts": {
+    "build:gh-page": "slidev build --base <REPOSITORY NAME>",
+  }
+}
 ```
